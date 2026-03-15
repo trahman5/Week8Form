@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tahsan Rahman's Contact Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <main>
+    <h2>Tahsan Rahman's Contact Form</h2>
+    
+    <form action="https://formspree.io/f/xzdjarez" method="POST">
+        <label for="full_name" class="text">Full Name:</label>
+        <input type="text" id="full_name" name="full_name"><br>
+
+        <label for="email" class="text">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="course_section" class="text">Course Section:</label>
+        <select id="course_section" name="course_section">
+            <option value="CIS 130">CIS 130</option>
+            <option value="CIS 152">CIS 152</option>
+            <option value="CIS 103">CIS 103</option>
+        </select><br>
+
+        <fieldset>
+        <legend>Reason for Contact</legend>
+
+        <input type="radio" id="reason_1" name="reason" value="question">
+        <label for="reason_1" class="text">Question about the course.</label><br>
+
+        <input type="radio" id="reason_2" name="reason" value="feedback">
+        <label for="reason_2" class="text">Provide feedback on the course.</label><br>
+
+        <input type="radio" id="reason_3" name="reason" value="other">
+        <label for="reason_3" class="text">Other.</label><br>
+        </fieldset>
+
+
+        <label for="message" class="text">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+
+        <button type="submit">Submit Form</button>
+    </form>
+    </main>
+<footer class="credits">This is the work of CCP Student Tahsan Rahman for Course CIS 130 900 ONLAS 15A SP26, Web Design. And all the assets/images belong to their rightful owners and are credited in the code. </footer>
+</body>
+</html>

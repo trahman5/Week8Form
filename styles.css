@@ -1,0 +1,79 @@
+body {
+    background-color: #F5CFD4;
+}
+
+h2 {
+    color: #C40922;
+    text-align: center;
+}
+
+form {
+    background-color: #EC8694;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 850px;
+    margin: auto;
+    border-color: #DB102B;
+}
+
+label {
+    display: inline-block;
+    color: #DB102B;
+    margin-top: 10px;
+}
+
+legend {
+    color: #DB102B;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#reason_1, #reason_2, #reason_3 {
+    margin-right: 5px;
+}
+
+.text {
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    color: #DE7684;
+    text-align: center;
+    font-size: 24px;
+}
+
+fieldset {
+    border-color: #DB102B;
+    border-width: 4px;
+    border-radius: 7px;
+    border-style: solid;
+}
+
+button {
+    background-color: #C40922;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #E04A5E;
+}
+
+input[type="text"], input[type="email"], select{
+    border: 3px solid #DB102B;
+    border-radius: 4px;
+    width: 30%;
+}
+
+ textarea {
+    border: 3px solid #DB102B;
+    border-radius: 4px;
+    width: 50%;
+}
